@@ -6,8 +6,5 @@ bot.on('guildMemberAdd', function(member) {
        member.addRole(member.guild.roles.find('name', 'Member'))   
 });
 
- 
-
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
