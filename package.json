@@ -1,17 +1,14 @@
 
 {
   "name": "KYS BOT",
+  "description": "KYSGaming's Discord Bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "discord.js": "^11.2.1"
-  },
-  "devDependencies": {},
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
 }
