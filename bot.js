@@ -8,4 +8,5 @@ bot.on('guildMemberAdd', function(member) {
 });
 
 
+
 bot.login ("Mzg2NTQ3OTY0NDE3NDA5MDI0.DQh2Uw.xxul1p3AK1VpQm1YTjjRSBRmQaU");
